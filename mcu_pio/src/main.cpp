@@ -17,4 +17,3 @@ void loop() {
     // spin the callbacks
     t1.spin();
 }
-

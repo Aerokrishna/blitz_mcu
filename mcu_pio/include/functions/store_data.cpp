@@ -11,7 +11,6 @@ void store_data(std::vector<uint8_t> payload) {
             
             // function to parse the struct
             count = parse_struct<Counter>(payload); // count.a, count.b, count.c, count.d, based on your interface
-
         }
     }
 }

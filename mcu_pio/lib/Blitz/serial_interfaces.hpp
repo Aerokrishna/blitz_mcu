@@ -1,6 +1,6 @@
 enum PacketID : uint8_t {
-    COUNTER = 1,
-    COUNTER_RESPONSE = 2,
+    COUNTER_RESPONSE = 1,
+    COUNTER = 2,
     
 };
 
@@ -14,6 +14,7 @@ struct Counter {
 
 };  
 #pragma pack(pop)
+
 
 size_t get_packet_size(uint8_t id) {
     switch (id) {
