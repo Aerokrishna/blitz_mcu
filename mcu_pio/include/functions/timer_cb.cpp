@@ -1,14 +1,19 @@
 void timer_cb(){
 
-    count_response.id = COUNTER;
-
-    // data to send
+    // count_response.id = 44;
     count_response.a ++;
     count_response.b ++;
 
-    // send the message 
-    send_data(pack_data<Counter>(count_response));
+    send_data(pack_data<Counter>(count_response, 44));
 
+    // std::string data = "";
+
+    // uint8_t num = 3;
+    // float num2 = 4.567;
+    
+    // data = "data sending " + std::to_string(num) + " " + std::to_string(num2);
+    // blitz_print(data);
+    
 }
 
 BlitzTimer t1(timer_cb, 100);
