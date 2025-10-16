@@ -12,7 +12,7 @@ void timer_cb(){
     // float num2 = 4.567;
     
     // data = "data sending " + std::to_string(num) + " " + std::to_string(num2);
-    // blitz_print(data);
+    // debug_state(data);
     
 }
 
