@@ -4,7 +4,7 @@ void timer_cb(){
     count_response.a ++;
     count_response.b ++;
 
-    send_data(pack_data<Counter>(count_response, 44));
+    send_data(pack_data<Counter>(count_response, COUNTER));
 
     // std::string data = "";
 

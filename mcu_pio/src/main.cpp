@@ -12,7 +12,7 @@ void loop() {
     std::vector<uint8_t> payload = receive_data();
 
     // stores data, called every loop
-    // store_data(payload);
+    store_data(payload);
     
     // spin the callbacks
     t1.spin();
